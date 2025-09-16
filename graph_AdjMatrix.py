@@ -7,7 +7,6 @@ class Graph_adj_matrix:
     def add_edge(self,source,destination,weight):
         self.adj_matrix[source][destination]=weight #change weight/True depending on normal or weighted graphs
         #self.adj_matrix[destination][source]=True #comment this line for directed graph
-
 graph_adj_matrix=Graph_adj_matrix(4)
 graph_adj_matrix.add_edge(0,1,20)
 graph_adj_matrix.add_edge(0,2,10)
