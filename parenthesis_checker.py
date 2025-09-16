@@ -52,3 +52,4 @@ if __name__ == "__main__":
     for expr in test_cases:
         result = is_balanced(expr)
         print(f"{expr} -> {'Balanced' if result else 'Not Balanced'}")
+        print("Hello")
