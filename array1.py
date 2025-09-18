@@ -1,3 +1,5 @@
+#Linear Search and Binary Search
+
 def LinearSearch(arr,value):
     for i in range(len(arr)):
         if(arr[i]==value):
